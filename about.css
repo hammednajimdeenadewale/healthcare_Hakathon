@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: antiquewhite;
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+header>img{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+}
+p{
+    position: absolute;
+    font-size: 10px;
+    margin-left: 18px;
+}
+span{
+    color: rgb(248, 153, 10);
+    font-size: 13px;
+}
+.nav-item{
+    display: flex;
+    gap: 50px;
+}
+.nav-item a{
+    text-decoration: none;
+    gap: 30px;
+    color: black;
+    font-weight: bold   ;
+}
+.nav-item a:hover{
+    color: gold;
+}
+.nav-itemaa{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    gap: 20px;
+}
+.nav-itema{
+    display: flex;
+    gap: 30px;
+}
+.bb{
+    width: 110px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    margin-right: 2px;
+}
+.bb a{
+    color: white;
+    text-decoration: none;
+}
+.ba{
+    width: 110px;
+    height: 30px;
+    background-color: gold;
+    border: none;
+}
+.ba a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:768px) {
+    nav{
+        width: 100%;
+        display: flex;
+    }
+    .nav-item{
+        width: 90%;
+        height: fit-content;
+    }.nav-item a{
+        display: none;
+    }
+    .nav-itema{
+        width: 100%;
+        display: flex;
+    }
+    .nav-itema{
+        width: 90%;
+        height: fit-content;
+    }
+   
+    
+    
+}
+
+
+
+.register{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(OIP\ \(13\).jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+    gap: 20px;
+}
+.register-item{
+    width: 50%;
+    height: 300px;
+}
+.he{
+    margin-top: 80px;
+    font-size: 40px;
+    color: gold;
+}
+.po{
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.bn{
+    width: 30%;
+    margin: 35% auto;
+    height: 38px;
+    margin-left: 55%;
+    border: none;
+    background-color: gold;
+    cursor: pointer;
+}
+.bn a{
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-right: 50px; */
+    color: white;
+}
+@media screen and (max-width:768px) {
+    .register{
+        width: 100%;
+        display: flex;
+    }
+    .register-item{
+        width: 90%;
+        height: fit-content;
+    }
+    .he{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+}
+
+.bo-ite{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5%;
+    border-bottom: 1px solid gray;
+}
+
+.bo{
+    width: 17%;
+    height: 70px;
+}
+.find{
+    width: 80%;
+    height: 39px;
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.find a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.bi{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 35px;
+    color: gold;
+}
+@media screen and (max-width:768px) {
+    .bo-ite{
+        width: 100%;
+        display: flex;
+        height: fit-content;
+    }
+    .find{
+        margin-top: 40px;
+    }
+    .bi{
+        margin-bottom: -50px;
+    }
+    
+}
+.lapp{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 60px;
+}
+.lap-item{
+    width: 30%;
+    height: 400px;
+    background-color: blue;
+    border: 2px solid gold;
+}
+.lap-item img{
+    width: 100%;
+    height: 400px;
+}
+@media screen and (max-width:768px) {
+    .lapp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .lap-item{
+        width: 90%;
+        height: fit-content;
+    }
+    
+}
+.why{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+    gap: 10px;
+    background-color: orange;
+    margin-bottom:100px;
+    border-top: 1px solid gray;
+}
+.why-item{
+    width: 50%;
+    height: 400px;
+}
+.why-item img{
+    width: 90%;
+    height: 400px;
+    margin-left: 50px;
+}
+.wh{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.w{
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+@media screen and(max-width:768px) {
+    .why{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .why-item{
+        width: 90%;
+        height: fit-content;
+    }
+    
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5%;
+    background-color: rgb(125, 122, 122);
+    border-top: 10px solid gold;
+}
+
+.boo{
+    width: 17%;
+    height: 70px;
+}
+.findd{
+    width: 90%;
+    height: 39px;
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.finddd{
+    width: 90%;
+    height: 39px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.findd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.finddd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.pu{
+    margin-top: -50px;
+    font-size: 16px;
+    color: white;
+}
+.bii{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 35px;
+    color: gold;
+}
+@media screen and (max-width:768px) {
+    footer{
+        width: 100%;
+        display: flex;
+        height: fit-content;
+    }
+    .findd{
+        margin-top: 50px;
+    }
+    .bii{
+        margin-bottom: -50px;
+    }
+    .pu{
+        line-height: 10px;
+        margin-bottom: -24px;
+    }
+    
+}
