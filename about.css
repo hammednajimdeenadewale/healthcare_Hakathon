@@ -10,7 +10,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background-color: antiquewhite;
     height: 80px;
     border-bottom: 1px solid gray;
 }
@@ -84,7 +83,7 @@ span{
         width: 90%;
         height: fit-content;
     }.nav-item a{
-        display: none;
+        display:flex;
     }
     .nav-itema{
         width: 100%;
@@ -135,6 +134,7 @@ span{
     border: none;
     background-color: gold;
     cursor: pointer;
+    border-radius:25px ;
 }
 .bn a{
     text-decoration: none;
@@ -251,8 +251,9 @@ span{
 }
 .why-item img{
     width: 90%;
-    height: 400px;
+    height:450px;
     margin-left: 50px;
+    padding-bottom:60px;
 }
 .wh{
     margin-top: 40px;
@@ -290,26 +291,27 @@ footer{
 }
 
 .boo{
-    width: 17%;
-    height: 70px;
+    width: 20%;
+    height: 200px;
+    /* background-color: red; */
 }
 .findd{
     width: 90%;
     height: 39px;
     background-color: gold;
     border: none;
-    border-radius: 10px;
+    border-radius: 19px;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 190px;
 }
 .finddd{
     width: 90%;
     height: 39px;
     background-color: red;
     border: none;
-    border-radius: 10px;
+    border-radius: 19px;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 190px;
 }
 
 .findd a{
@@ -340,14 +342,17 @@ footer{
         height: fit-content;
     }
     .findd{
-        margin-top: 50px;
+        margin-top: 170px;
+    }
+    .finddd{
+        margin-top: 170px;
     }
     .bii{
         margin-bottom: -50px;
     }
     .pu{
-        line-height: 10px;
-        margin-bottom: -24px;
+        line-height: 15px;
+        margin-bottom: -99px;
     }
     
 }

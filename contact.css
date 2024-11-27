@@ -10,7 +10,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background-color: antiquewhite;
     height: 80px;
     border-bottom: 10px solid gold;
 }
@@ -83,8 +82,9 @@ span{
     .nav-item{
         width: 90%;
         height: fit-content;
-    }.nav-item a{
-        display: none;
+    }
+    .nav-item a{
+        display: flex;
     }
     .nav-itema{
         width: 100%;
@@ -161,8 +161,8 @@ span{
         margin-left: 20px;
     }
     .she{
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 120px;
+        margin-left: -30px;
     }
     .item1{
         width: 100%;
@@ -173,6 +173,7 @@ span{
         display: flex;
     }
 }
+
 .logo{
     width: 100%;
     display: flex;
@@ -223,7 +224,7 @@ span{
 form{
     width: 80%;
     height: 400px;
-    background-color: blue;
+    /* background-color: blue; */
     margin-left: 10px;
     margin-top: 55px;
 }
@@ -341,8 +342,7 @@ input::placeholder{
     }
     
  }
-
-footer{
+ footer{
     width: 100%;
     display: flex;
     align-items: center;
@@ -350,26 +350,42 @@ footer{
     gap: 20px;
     padding: 5%;
     background-color: rgb(125, 122, 122);
+    border-top: 10px solid gold;
 }
 
 .boo{
-    width: 17%;
-    height: 70px;
+    width: 20%;
+    height: 200px;
+    /* background-color: red; */
 }
-
 .findd{
     width: 90%;
     height: 39px;
     background-color: gold;
     border: none;
-    border-radius: 10px;
+    border-radius: 19px;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 190px;
+}
+.finddd{
+    width: 90%;
+    height: 39px;
+    background-color: red;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 190px;
 }
 
 .findd a{
     text-decoration: none;
     font-weight: bold;
+    color: white;
+}
+.finddd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
 .pu{
     margin-top: -50px;
@@ -389,14 +405,19 @@ footer{
         height: fit-content;
     }
     .findd{
-        margin-top: 50px;
+        margin-top: 170px;
+    }
+    .finddd{
+        margin-top: 170px;
     }
     .bii{
         margin-bottom: -50px;
     }
     .pu{
-        line-height: 10px;
-        margin-bottom: -24px;
+        line-height: 15px;
+        margin-bottom: -99px;
     }
     
 }
+
+ 

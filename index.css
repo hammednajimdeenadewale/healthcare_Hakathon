@@ -10,7 +10,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background-color: antiquewhite;
     height: 80px;
     border-bottom: 10px solid gold;
 }
@@ -36,7 +35,7 @@ span{
     text-decoration: none;
     gap: 30px;
     color: black;
-    font-weight: bold   ;
+    font-weight: bold;
 }
 .nav-item a:hover{
     color: gold;
@@ -83,8 +82,9 @@ span{
     .nav-item{
         width: 90%;
         height: fit-content;
-    }.nav-item a{
-        display: none;
+    }
+    .nav-item a{
+        display: flex;
     }
     .nav-itema{
         width: 100%;
@@ -185,7 +185,7 @@ span{
 form{
     width: 80%;
     height: 400px;
-    background-color: blue;
+    /* background-color: blue; */
     margin-left: 10px;
     margin-top: 55px;
 }
@@ -282,68 +282,82 @@ input::placeholder{
     }
     
  }
-.private{
+ footer{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
-    border-top: 8px solid gold;
+    gap: 20px;
+    padding: 5%;
+    background-color: rgb(125, 122, 122);
+    border-top: 10px solid gold;
 }
-.private-item{
-    width: 100%;
+
+.boo{
+    width: 20%;
     height: 200px;
-    background: rgb(54, 54, 55);
+    /* background-color: red; */
 }
-.private-item h2{
-    margin-top: 20px;
-    text-align: center;
-    color: white;
-}
-.private-item p{
-    font-size: 15px;
-    color: white;
-    line-height: 20px;
-    transform: translateY(10px);
-}
-.private-item button{
-    margin-top: 80px;
-    width: 15%;
-    height: 35px;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(350px);
-    border-radius: 19px;
+.findd{
+    width: 90%;
+    height: 39px;
     background-color: gold;
-    color: white;
     border: none;
-
-}
-.private-item .bu{
-    margin-top: 80px;
-    width: 15%;
-    height: 35px;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(350px);
     border-radius: 19px;
+    cursor: pointer;
+    margin-top: 190px;
+}
+.finddd{
+    width: 90%;
+    height: 39px;
     background-color: red;
-    color: white;
     border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 190px;
+}
 
+.findd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.finddd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.pu{
+    margin-top: -50px;
+    font-size: 16px;
+    color: white;
+}
+.bii{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 35px;
+    color: gold;
 }
 @media screen and (max-width:768px) {
-    .private{
+    footer{
         width: 100%;
         display: flex;
         height: fit-content;
     }
-    .private-item{
-        width: 90%;
-        height: fit-content;
+    .findd{
+        margin-top: 170px;
     }
-    .private-item button{
+    .finddd{
+        margin-top: 170px;
+    }
+    .bii{
+        margin-bottom: -50px;
+    }
+    .pu{
+        line-height: 15px;
+        margin-bottom: -99px;
     }
     
 }
+
 
