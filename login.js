@@ -32,4 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         form.dispatchEvent(new Event("submit")); // Trigger form submission
     });
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 237f3ba43c8829564f57b72e2ca5b0d9fee812a5
