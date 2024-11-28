@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyHealth Dr.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            background: url('health.jpeg') no-repeat center center;
+            background-size: cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: gold;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .sub {
+            text-align: center;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+
+
+        .download-section h3 {
+            margin: 0 1rem 0 0;
+        }
+
+        .header {
+            font-size: 2rem;
+            font-weight: bold;
+            color: gold;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .area {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .area button {
+            background-color: gold;
+            border: none;
+            font-weight: bold;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .image-gallery img {
+            width: 200px;
+            height: 200px;
+            border: 2px solid gold;
+        }
+
+        .info-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: gold;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-radius: 8px;
+            width: 90%;
+        }
+
+        .info-section img {
+            width: 30%;
+            height: auto;
+        }
+
+        .info-section .details {
+            max-width: 60%;
+        }
+
+        .info-section .details h4 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: rgb(125, 122, 122);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            border-top: 10px solid gold;
+        }
+
+        .footer-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .footer-buttons button {
+            border: none;
+            border-radius: 20px;
+            padding: 0.5rem 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .footer-buttons .accept {
+            background-color: gold;
+        }
+
+        .footer-buttons .reject {
+            background-color: red;
+        }
+
+        .footer-buttons a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <div class="content">
+        <h2>YOUR WELL-BEING</h2>
+        <p class="sub">is our priority and it cannot be compromised.<br>Let's begin a journey of good health together.
+        </p>
+
+        <div class="download-section">
+            <h3>DOWNLOAD</h3>
+
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <div class=" header">Become Our Superstar Patient
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="area">
+        <button class="btn"><a href="book.html" style="color: black; text-decoration:none;">Find a
+                Doctor</a></button>
+        <button class="btn"><a href="appointment.html" style="color: black; text-decoration:none;">Book an
+                Appointment</a></button>
+        <button class="btn"><a href="location.html" style="color: black; text-decoration:none;">Nearby
+                Hospitals</a></button>
+        <button class="btn"><a href="health.html" style="color: black; text-decoration:none;">Emergency</a></button>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="image-gallery">
+        <img src="OIP (21).jpeg" alt="Image 1">
+        <img src="OIP (22).jpeg" alt="Image 2">
+        <img src="OIP (23).jpeg" alt="Image 3">
+    </div>
+
+    <!-- Info Section -->
+    <div class="info-section">
+        <img src="OIP (21).jpeg" alt="Image">
+        <div class="details">
+            <h4>Why Choose MyHealth <span style="color: lightyellow;">DR.</span></h4>
+            <ul>
+                <li>Enhanced Access to Medical Care</li>
+                <li>Reliable Patient Services</li>
+                <li>Professional Healthcare Support</li>
+                <li>24/7 Emergency Assistance</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <h4>PRIVACY POLICY | TERMS AND CONDITIONS</h4>
+        <p>We use cookies to personalise content and ads, provide social media features, and analyse our traffic. We
+            share this information with our partners who may combine it with other information you've provided or
+            they've collected from your use of their services.</p>
+
+        <div class="footer-buttons">
+            <button class="accept"><a href="#">ACCEPT ALL</a></button>
+            <button class="reject"><a href="#">REJECT ALL COOKIES</a></button>
+            <button class="accept"><a href="#">READ T&C HERE</a></button>
+        </div>
+    </footer>
+</body>
+
+</html>

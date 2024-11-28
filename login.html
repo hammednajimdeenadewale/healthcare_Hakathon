@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
+
+    <nav>
+        <header><img src="favicon.jpg" alt="">
+            <P>MYHEALTH <span>DR.</span></P>
+        </header>
+        <div class="nav-item">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
+        <div class="nav-itemaa">
+            <div class="nav-itema">
+                <a href="index.html#fem"> <button style="padding: 10px;width: 100px;background: black;
+border-radius: 10px;color:white; border: none;" class="bb">REGISTER</button></a>
+
+                <a href="login.html"> <button style="padding: 10px;width: 100px;background: gold;
+border-radius: 10px;color:white; border: none;" class="bb">LOGIN</button></a>
+            </div>
+
+        </div>
+    </nav>
+    <section>
+        <div class="register">
+            <div class="register-item">
+                <h1 class="he">WELCOME</h1>
+            </div>
+        </div>
+    </section>
+
+
     <section id="fem">
         <p class="ple"><span class="sp">Sign in</span><br>Please login to your account</p>
 
@@ -15,20 +47,39 @@
             <div class="farm">
                 <form action="">
                     <label for="">EMAIL OR PHONE NUMBER</label><br>
-                    <input type="email" placeholder="Enter email or phone number"><br>
+                    <input type="email" placeholder="Enter email or phone number" required="required"><br>
                     <label for="">PASSWORD</label><br>
-                    <input type="password" placeholder="Enter your password"><br>
-                    <button class="bi"><a href="contact.html">Sign Up</a></button>
-                    <p class="pi">Now User? <span class="pia">Create an account here</span></p>
-                    <button class="bt"><i class="fa-brands fa-google" style="color:red"></i><a href="">Sign Up using Google</a></button>
-                    <button class="bt"><i class="fa-brands fa-facebook" style="color:blue"></i><a href="">Sign Up using Facebook</a></button>
+                    <input type="password" placeholder="Enter your password" required="required"><br>
+                    <button class="bi"><a href="home.html">Sign In</a></button>
+                    <p class="pi">Dont have an account? <span class="pia"><a href="index.html#fem">Sign Up</a> </span>
+                    </p>
+                    <button class="bt"><i class="fa-brands fa-google" style="color:red"></i><a href="">Sign Up using
+                            Google</a></button>
+                    <button class="bt"><i class="fa-brands fa-facebook" style="color:blue"></i><a href="">Sign Up using
+                            Facebook</a></button>
                 </form>
             </div>
             <div class="farm"><img src="./OIP (2).jpeg" alt="">
-                <div class="farm-item">  <img src="./OIP (3).jpeg" alt=""> 
-                   <img src="./health.jpeg " alt=""></div>
-                </div>  
+                <div class="farm-item"> <img src="./OIP (3).jpeg" alt="">
+                    <img src="./health.jpeg " alt="">
+                </div>
+            </div>
         </div>
     </section>
+
+
+    <section>
+        <footer>
+            <h3 class="bii">PRIVACY POLICY|TERM AND CONDITION</h3>
+            <p class="pu">We use cookies to personalise content and ads,to provide social media features and to analyse
+                our traffic.We also share information about your use of our site with our social media, advertising
+                and analytics partners who may combineit with other information that you've provided to them or that
+                they've collectedfrom your use of their services.</p>
+            <div class="boo"><button class="findd"><a href="">ACCEPT ALL</a></button></div>
+            <div class="boo"><button class="finddd"><a href="">REJECT ALL COOKIES</a></button></div>
+            <div class="boo"><button class="findd"><a href="">READ T&C HERE</a></button></div>
+        </footer>
+    </section>
 </body>
+
 </html>

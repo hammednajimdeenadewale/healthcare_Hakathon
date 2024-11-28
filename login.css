@@ -2,9 +2,77 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth;*/ 
 }
-
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 80px;
+    border-bottom: 10px solid gold;
+}
+header>img{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+}
+p{
+    position: absolute;
+    font-size: 10px;
+    margin-left: 18px;
+}
+span{
+    color: rgb(248, 153, 10);
+    font-size: 13px;
+}
+.nav-item{
+    display: flex;
+    gap: 50px;
+}
+.nav-item a{
+    text-decoration: none;
+    gap: 30px;
+    color: black;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: gold;
+}
+.nav-itemaa{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    gap: 20px;
+}
+.nav-itema{
+    display: flex;
+    gap: 30px;
+}
+.register{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(onlinepics.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: gold;
+}
+.register-item{
+    width: 50%;
+    height: 300px;
+    margin-right: 20%;
+}
+.he{
+    margin-top: 100px;
+    font-size: 40px;
+}
 .far{
     width: 100%;
     display: flex;
@@ -140,3 +208,59 @@ input::placeholder{
     }
     
  }
+ footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    padding: 5%;
+    background-color: rgb(125, 122, 122);
+    border-top: 10px solid gold;
+}
+
+.boo{
+    width: 20%;
+    height: 200px;
+    /* background-color: red; */
+}
+.findd{
+    width: 90%;
+    height: 39px;
+    background-color: gold;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 190px;
+}
+.finddd{
+    width: 90%;
+    height: 39px;
+    background-color: red;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 190px;
+}
+
+.findd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.finddd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.pu{
+    margin-top: -50px;
+    font-size: 16px;
+    color: white;
+}
+.bii{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 35px;
+    color: gold;
+}

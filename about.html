@@ -1,72 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/brands.min.css" integrity="sha512-7rXIvd/xj1FnI2zKQjjXzDFxC4twqBByp8yxOgEQJs4C/aNzNyoQsOO7VxH0RgYNhbAYLJLwzqslaP50KTTHIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/brands.min.css"
+        integrity="sha512-7rXIvd/xj1FnI2zKQjjXzDFxC4twqBByp8yxOgEQJs4C/aNzNyoQsOO7VxH0RgYNhbAYLJLwzqslaP50KTTHIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+    .header {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gold;
+    }
+
+    .con {
+        display: flex;
+    }
+
+    .con img {
+        height: 400px;
+        width: 320px;
+        margin-left: 20px;
+        border-radius: 20px;
+        border: 2px solid gold;
+    }
+
+    .bscon {
+        width: 100vw;
+        height: 31.5vh;
+        background-color: gold;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .bson img {
+        width: 30vw;
+        height: 40vh;
+    }
+
+    .sd {
+        margin-top: 50px;
+    }
+
+    .hd {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 5%;
+        background-color: rgb(125, 122, 122);
+        border-top: 10px solid gold;
+    }
+
+    .boo {
+        width: 20%;
+        height: 200px;
+        /* background-color: red; */
+    }
+
+    .findd {
+        width: 90%;
+        height: 39px;
+        background-color: gold;
+        border: none;
+        border-radius: 19px;
+        cursor: pointer;
+        margin-top: 190px;
+    }
+
+    .finddd {
+        width: 90%;
+        height: 39px;
+        background-color: red;
+        border: none;
+        border-radius: 19px;
+        cursor: pointer;
+        margin-top: 190px;
+    }
+
+    .findd a {
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+
+    .finddd a {
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+
+    .pu {
+        margin-top: -50px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .bii {
+        position: absolute;
+        margin-top: -150px;
+        font-size: 35px;
+        color: gold;
+    }
+</style>
+
 <body>
     <nav>
-        <header><img src="favicon.jpg" alt=""><P>MYHEALTH <span>DR.</span></P></header>
+        <header><img src="favicon.jpg" alt="">
+            <P>MYHEALTH <span>DR.</span></P>
+        </header>
         <div class="nav-item">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
             <a href="contact.html">CONTACT US</a>
         </div>
         <div class="nav-itemaa">
-        <div class="nav-itema">
-        <button class="ba"><a href="login.html">LOGIN</a></button>
+            <div class="nav-itema">
+                <a href="index.html"> <button style="padding: 10px;width: 100px;background: black;
+                border-radius: 10px;color:white; border: none;" class="bb">REGISTER</button></a>
+
+                <a href="login.html"> <button style="padding: 10px;width: 100px;background: gold;
+                border-radius: 10px;color:white; border: none;" class="bb">LOGIN</button></a>
+            </div>
         </div>
-    </div>
     </nav>
+
+
     <section>
         <div class="register">
             <div class="register-item">
-                <h3 class="he">YOUR WELLBEING</h3>
-                <P class="po">is out priority nad it can't be compromised. Lets begin a <br> journey of good health together</P>
-            </div>
-            <div class="register-item">
-                <button class="bn"><i class="fa-brands fa-google-play"></i><a href="">DOWNLOAD</a></button>
+                <h1 class="he">ABOUT US</h1>
             </div>
         </div>
     </section>
 
-    <section>
-            <div class="bo-ite">
-                <h3 class="bi">Become Our Supperstar Patient</h3>
-                <div class="bo"><button class="find"><a href="">Find a Doctor</a></button></div>
-                <div class="bo"><button class="find"><a href="">Book an Appointment</a></button></div>
-                <div class="bo"><button class="find"><a href="">Nearby Hospitals</a></button></div>
-        </div>
-    </section>
-    <section>
-        <div class="lapp">
-            <div class="lap-item"><img src="./download (16).jpeg" alt=""></div>
-            <div class="lap-item"><img src="./download (5).jpeg" alt=""></div>
-            <div class="lap-item"><img src="./OIP (10).jpeg" alt=""></div>
-        </div>
-    </section>
+    <center>
+        <div class="header">WHAT YOU NEED TO KNOW ABOUT US</div>
+    </center>
 
-    <section>
-        <div class="why">
-            <div class="why-item"><img src="./OIP (9).jpeg" alt=""></div>
-            <div class="why-item">
-                <h2 class="wh">why choose Moni4Biz</h2>
-                <p class="w">Enhanced Access to Medical Care <br>Efficiency Appointment Booking System <br> Digital Medical Records <br>Location Based Services for Nearest Hospitals</p>
+
+    <div class="con">
+        <div class="img"><img src="OIP (13).jpeg" alt=""></div>
+
+        <div style="margin-left: 20px;" class="card w-100">
+            <div class="health">
+                <div class="head"><b>Welcome to MYHEALTH DR.</b></div>
+                <p style="font-size: 15px;">A comprehensive health mobile app that enables users to consult with
+                    certified doctors across various specialities, book appointments effortlessly, and securely
+                    diagnoses and medical records in a centralized database. The app will also feature a geolocation
+                    tool to help users quickly locate and navigate to nearby hosipitals, ensuring timely access
+                    to healthcare services. By combining telemedicine, digital health management, and location -based
+                    services, the app bridges gaps in Nigeria's healthcare system, offering a user-friendly, secure, and
+                    eficient solution for patients.
+                </p><br><br><br><br><br>
+                <div style="font-size: 25px;" class="head"><b>What We Do</b></div>
+                <p style="font-size: 15px;">
+                    A mobile app with functionalities for consulting doctors, booking appointments, storing diagnoses,
+                    and locating nearby hosipitals in Nigeria which would
+                    offer significant benefits in a region where healthcare access can be limited.
+                </p>
+
+            </div>
+            <div style="margin-top: 50px;" class="cad">
+                <b>
+                    <p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, deserunt.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, deserunt.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, deserunt.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, deserunt.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, deserunt.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, deserunt.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, deserunt.</li>
+                    </ul>
+                    </p>
+                </b>
             </div>
         </div>
+    </div>
+
+    <div class="bscon">
+
+        <div class="sd">
+            <div class="hd">Our Vision</div>
+            <op>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, accusantium.
+            </op>
+            <div class="hd">Our Mission</div>
+            <op>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, accusantium.
+            </op>
+        </div>
+        <img src="OIP (21).jpeg" alt="">
+    </div>
+
+    <section>
+        <footer>
+            <h3 class="bii">PRIVACY POLICY|TERM AND CONDITION</h3>
+            <p class="pu">We use cookies to personalise content and ads,to provide social media features and to analyse
+                our traffic.We also share information about your use of our site with our social media, advertising
+                and analytics partners who may combineit with other information that you've provided to them or that
+                they've collectedfrom your use of their services.</p>
+            <div class="boo"><button class="findd"><a href="">ACCEPT ALL</a></button></div>
+            <div class="boo"><button class="finddd"><a href="">REJECT ALL COOKIES</a></button></div>
+            <div class="boo"><button class="findd"><a href="">READ T&C HERE</a></button></div>
+        </footer>
     </section>
-<section>
-    <footer>
-        <h3 class="bii">PRIVACY POLICY|TERM AND CONDITION</h3>
-        <p class="pu">We use cookies to personalise content and ads,to provide social media features and to analyse our traffic.We also share information about your use of our site with our social media, advertising
-            and analytics partners who may combineit with other information that you've provided to them or that they've collectedfrom your use of their services.</p>
-        <div class="boo"><button class="findd"><a href="">ACCEPT ALL</a></button></div>
-        <div class="boo"><button class="finddd"><a href="">REJECT ALL COOKIES</a></button></div>
-        <div class="boo"><button class="findd"><a href="">READ T&C HERE</a></button></div>
-    </footer>
-</section>
+
 </body>
+
 </html>

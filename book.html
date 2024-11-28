@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Doctor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .hero {
+            position: relative;
+            height: 60vh;
+            background: url('finddoctor.jpg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero .heading {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero .input-field input {
+            margin-top: 20px;
+            width: 300px;
+            padding: 10px 15px;
+            border-radius: 25px;
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .expert {
+            padding: 50px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card .image-avatar img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .card .expert-details .expert-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .card .expert-details .role {
+            color: #6c757d;
+            margin: 5px 0;
+        }
+
+        .card .expert-details .rating {
+            color: #ffc107;
+            font-size: 1.1rem;
+        }
+
+        .call-btn {
+            margin-top: 15px;
+            background-color: yellow;
+            color: rgb(41, 8, 8);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .call-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .contact {
+            padding: 50px 20px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact .contact-image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .contact .forms {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .forms h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .forms .form-field label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .forms .form-field input,
+        .forms .form-field textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            margin-top: 5px;
+        }
+
+        .forms .buttons {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .forms .send-btn,
+        .forms .appoint-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .send-btn {
+            background-color: #28a745;
+        }
+
+        .send-btn:hover {
+            background-color: #218838;
+        }
+
+        .appoint-btn {
+            background-color: #007bff;
+        }
+
+        .appoint-btn:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #343a40;
+            color: white;
+        }
+
+        footer h3 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer .boo button {
+            margin: 10px 5px;
+            background: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 25px;
+            border: none;
+        }
+
+        footer .boo button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer .boo button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1 class="heading">Find Your Doctor</h1>
+            <div class="input-field">
+                <input type="text" name="search" placeholder="Search for a doctor...">
+            </div>
+        </div>
+    </section>
+
+    <section class="expert">
+        <h1 class="heading text-center">Contact Our Experts</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="image-avatar">
+                    <img src="image1.jpeg" alt="doctor image">
+                </div>
+                <div class="expert-details">
+                    <h2 class="expert-name">Dr. Donald R.</h2>
+                    <p class="role">Hematologist</p>
+                    <span class="rating">4.8 <i class="fas fa-star"></i></span>
+                </div>
+                <div class="expert-contact">
+                    <h3>Contact info:</h3>
+                    <p>Email: donaldR@myhealthdr.com</p>
+                    <p>Phone: +234(81)000-000</p>
+                </div>
+                <button class="call-btn">Call Now</button>
+            </div>
+            <div class="card">
+                <div class="image-avatar">
+                    <img src="image2.jpeg" alt="doctor image">
+                </div>
+                <div class="expert-details">
+                    <h2 class="expert-name">Dr. Ajayi R.</h2>
+                    <p class="role">Trauma Specialist</p>
+                    <span class="rating">4.8 <i class="fas fa-star"></i></span>
+                </div>
+                <div class="expert-contact">
+                    <h3>Contact info:</h3>
+                    <p>Email: ajayiR@myhealthdr.com</p>
+                    <p>Phone: +234(81)000-000</p>
+                </div>
+                <button class="call-btn">Call Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-image">
+            <img src="logo.jpg" alt="Contact image">
+        </div>
+        <div class="forms">
+            <form action="">
+                <h2 class="subheading">Send Message</h2>
+                <div class="form-field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name" required="required">
+                    <label for="age">Age:</label>
+                    <input type="text" id="age" placeholder="Your Age" required="required">
+                    <label for="message">Complaint:</label>
+                    <textarea id="message" placeholder="Your Complaint" required="required"></textarea>
+                    <div class="buttons">
+                        <button type="submit" class="send-btn">Send</button>
+                        <button type="button" class="appoint-btn">Book Appointment</button>
+                        <button type="button" class="appoint-btn"><a href="home.html"
+                                style="color:white; text-decoration:none;">Back
+                                Home</a></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h3>PRIVACY POLICY | TERMS AND CONDITIONS</h3>
+        <p>We use cookies to personalize content and ads, provide social media features, and analyze traffic.</p>
+        <div class="boo">
+            <button><a href="#">ACCEPT ALL</a></button>
+            <button><a href="#">REJECT ALL</a></button>
+            <button><a href="#">READ T&C HERE</a></button>
+        </div>
+    </footer>
+</body>
+
+</html>

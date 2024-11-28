@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --white: #ffff;
+    --yellow: rgb(255, 162, 0);
+    --black: #000;
+    --gray: #3f3f3f9b;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: var(--white-color);
+}
+
+button {
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a {text-decoration: none; color: var(--black); }
+
+.heading {
+    font-size: 54px;
+    color: var(--yellow);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mt-7 {
+    margin-bottom: 7px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    background: url('hero-bg.jpeg') no-repeat;
+    background-size: cover;
+}
+
+.hero .container {
+    text-align: center;
+}
+
+.hero .container .heading {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero .container .input-field {
+    background: var(--white);
+    border-radius: 24px;
+    padding: 10px;
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.expert, .contact {
+    padding: 8%;
+}
+
+.expert .heading {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    border: 2px solid var(--gray);
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.expert-name, .role {
+    margin-bottom: 7px;
+}
+
+.call-btn {
+    font-size: 18px;
+    padding: 10px 18px;
+    color: var(--black);
+    background: var(--yellow);
+}
+
+.more-btn, .send-btn {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: var(--yellow);
+}
+
+.contact .flex {
+    gap: 3rem;
+}
+
+.contact-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.forms {
+    width: 400px;
+}
+
+.forms form {
+    padding: 20px 30px;
+}
+
+.form-field > *{
+    display: block;
+}
+
+.forms .subheading {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.form-field label {
+    margin-block: 7px;
+    font-weight: 700;
+}
+
+.form-field input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--gray);
+    resize: none;
+}
+
+#message {
+    height: 100px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.buttons .send-btn{
+    padding-inline: 40px;
+}
+
+.appoint-btn {
+    border: 2px solid var(--yellow);
+    padding: 10px;
+    background: var(--white);
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5%;
+    background-color: rgb(125, 122, 122);
+    border-top: 10px solid gold;
+}
+
+.boo{
+    width: 20%;
+    height: 200px;
+    /* background-color: red; */
+}
+.findd{
+    width: 90%;
+    height: 39px;
+    background-color: gold;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 190px;
+}
+.finddd{
+    width: 90%;
+    height: 39px;
+    background-color: red;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 190px;
+}
+
+.findd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.finddd a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.pu{
+    width: 100%;
+    margin-top: -50px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.bii{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 35px;
+    color: gold;
+}
